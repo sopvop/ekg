@@ -1,5 +1,5 @@
 name:                ekg
-version:             0.4.0.10
+version:             1.0.0.0
 synopsis:            Remote monitoring of processes
 description:
   This library lets you remotely monitor a running process over HTTP.
@@ -45,8 +45,8 @@ library
     ekg-json >= 0.1 && < 0.2,
     filepath < 1.5,
     network < 2.7,
-    snap-core < 1.1,
-    snap-server < 1.1,
+    snap-core == 1.0.*,
+    snap-server == 1.0.*,
     text < 1.3,
     time < 1.7,
     transformers < 0.6,
